@@ -6,9 +6,7 @@
 @media (max-width: 1025px) {
   .left {
     width: 80%;
-  }
-  .right {
-    margin-right: 10px;
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
@@ -62,5 +60,9 @@
   }
   .container:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .right {
+    width: 90%;
   }
 }
